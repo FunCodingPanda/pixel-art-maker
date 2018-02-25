@@ -1,0 +1,50 @@
+body {
+  background-color: pink;
+}
+
+.pixel {
+  border: 1px solid #ddd;
+  width: 14px;
+  height: 14px;
+  background-color: white;
+  float: left;
+}
+
+#palettes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.palette {
+  border: none;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.selected {
+  box-shadow: 0em 0em 0.8em 0.15em blue;
+}
+
+h1 {
+  text-align: center;
+  font-family: monospace;
+  font-size: 400%;
+  color: blue;
+  text-shadow: -3px 0 #00008B, 0 1px #00008B, 1px 0 #00008B, 0 -1px #00008B;
+}
+
+#box {
+  border-radius: 1em;
+  background-color: #DCDCDC;
+  width: 60em;
+  height: 45em;
+  margin: 0px auto;
+  padding: 2%;
+  box-shadow: 0em 0em 10em 1em grey;
+}
+
+.red {
+  background-color: red;
+}
